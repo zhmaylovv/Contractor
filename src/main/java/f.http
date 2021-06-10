@@ -1,0 +1,8 @@
+http://localhost:8080
+curl -i -H "Content-Type:application/json" -d "{\"name\": \"Vasya\", \"inn\": \"123456\", \"kpp\": \"12345667\", \"bik\":\"12\", \"account\":\"12342342423423\"}" http://localhost:8080/contractor
+private Long id;
+    private String name;
+    private Long inn;
+    private Long kpp;
+    private Long bik;
+    private String account;
